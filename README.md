@@ -56,17 +56,20 @@ Each person should take 15-20 photos for the model to be highly accurate
 ```bash
   python build_dataset.py
 ```
+![image1](https://github.com/onionT-312/FaceRecognitionSystem/blob/main/picture/demo1.jpg)
 
 ### Step 2. Create encoding for faces in the dataset
 After creating the dataset, we will create the encodings (or embeddings) of the faces in that dataset. The first thing to do is to extract the face ROIs (avoid using the entire image because there will be a lot of background noise affecting the model quality). To detect and extract faces, we can use many methods such as haar cascades, HOG + Linear SVM, Deep Learning-based face detector... Once we have face ROIs, we will pass them through the NN network to get the encodings.
-![image](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+![image2](https://github.com/onionT-312/FaceRecognitionSystem/blob/main/picture/demo2.jpg)
+
 In this section the `encode_faces.py` file is run to save encodings and names + ID. The encodings and names are saved to the `encodings.pickle` file.
 ```bash
   python encode_dataset.py -i dataset -e encodings.pickle
 ```
 ### Step 3. Recognize faces in videos
 Run the `recognize_faces_video.py` file to recognize faces in videos
-![image](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image3](https://github.com/onionT-312/FaceRecognitionSystem/blob/main/picture/demo3.jpg)
 ```bash
   python recognize_face_video.py --encodings encodings.pickle
 ```
