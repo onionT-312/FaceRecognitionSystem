@@ -75,10 +75,10 @@ Run the `recognize_faces_video.py` file to recognize faces in videos
 ```
 
 ## References
-    1. https://github.com/ageitgey/face_recognition/blob/master/face_recognition/api.py#L213
-    2. https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/
-    3. https://github.com/huytranvan2010/Face-Recognition-with-OpenCV-Python-DL
+1. [https://github.com/ageitgey/face_recognition/blob/master/face_recognition/api.py#L213](https://github.com/ageitgey/face_recognition/blob/master/face_recognition/api.py#L213)
+2. [https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/](https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/)
+3. [https://github.com/huytranvan2010/Face-Recognition-with-OpenCV-Python-DL](https://github.com/huytranvan2010/Face-Recognition-with-OpenCV-Python-DL)
 ## Authors
 
-- [@onionT-312](https://github.com/onionT-312)
+[@onionT-312](https://github.com/onionT-312)
 
